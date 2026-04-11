@@ -189,6 +189,10 @@ REPORT.md        — full findings writeup with tables and charts
 
 **Methodology:** This experiment used Claude Sonnet 4.5 via the API, with deterministic scoring. 250 total API calls across 7 conditions and 5 tasks. Key conditions (cap_hard, burndown_coding, framed_explicit) got n=10 per cell; the rest got n=5. Total cost ~$20. Designed and run in collaboration with Claude Code.
 
+## Disclosure
+
+This experiment was designed and built in collaboration with Claude Code (Anthropic's coding agent). Claude helped refine the experimental design, write the experiment harness, score the results, and draft both the report and this README. The author directed the research questions, reviewed all code and scoring logic, verified the findings, and wrote the companion Substack article. The irony of using Claude to study Claude's failure modes was not lost on anyone involved.
+
 ## License
 
 MIT
