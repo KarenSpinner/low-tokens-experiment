@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.claude/
+
+# Old v2 results directory (kept locally, not tracked)
+results_v2/
+
+# Raw run logs and plots (can be regenerated)
+results/run_*.jsonl
+results/plots/
